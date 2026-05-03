@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "wpx": "https://www.devonenergy.com/wpx-vocab#",
+    "eia": "https://www.eia.gov/vocab#",
+
+    "EnergyCompany": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    },
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "ticker": "schema:tickerSymbol",
+
+    "OilAndGasProducer": {
+      "@id": "wpx:OilAndGasProducer",
+      "@type": "@id"
+    },
+    "basin": {
+      "@id": "wpx:basin",
+      "@type": "@id"
+    },
+    "PermianBasin": {
+      "@id": "wpx:PermianBasin",
+      "@type": "@id"
+    },
+    "WillistonBasin": {
+      "@id": "wpx:WillistonBasin",
+      "@type": "@id"
+    },
+
+    "WellProduction": {
+      "@id": "wpx:WellProduction",
+      "@type": "@id"
+    },
+    "boePerDay": {
+      "@id": "wpx:boePerDay",
+      "@type": "xsd:decimal"
+    },
+    "oilProduction": {
+      "@id": "wpx:oilProduction",
+      "@type": "xsd:decimal"
+    },
+    "naturalGasProduction": {
+      "@id": "wpx:naturalGasProduction",
+      "@type": "xsd:decimal"
+    },
+
+    "ProvedReserves": {
+      "@id": "wpx:ProvedReserves",
+      "@type": "@id"
+    },
+    "provedDevelopedReserves": "wpx:provedDevelopedReserves",
+    "provedUndevelopedReserves": "wpx:provedUndevelopedReserves",
+
+    "Well": {
+      "@id": "wpx:Well",
+      "@type": "@id"
+    },
+    "wellType": "wpx:wellType",
+    "horizontalDrilling": {
+      "@id": "wpx:horizontalDrilling",
+      "@type": "xsd:boolean"
+    },
+    "hydraulicFracturing": {
+      "@id": "wpx:hydraulicFracturing",
+      "@type": "xsd:boolean"
+    },
+
+    "Merger": {
+      "@id": "schema:CorporateMerger",
+      "@type": "@id"
+    },
+    "mergerDate": {
+      "@id": "schema:endDate",
+      "@type": "xsd:date"
+    },
+    "acquiree": "schema:dissolutionDate",
+    "acquirer": {
+      "@id": "schema:acquiredBy",
+      "@type": "@id"
+    }
+  }
+}

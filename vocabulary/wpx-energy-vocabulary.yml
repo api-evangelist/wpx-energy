@@ -1,0 +1,86 @@
+vocabulary:
+  name: WPX Energy Vocabulary
+  description: >-
+    Domain vocabulary for WPX Energy, an independent oil and gas exploration
+    and production company that merged with Devon Energy in 2021. Covers
+    terminology related to E&P operations in the Permian and Williston basins.
+  version: '2026-05-03'
+  terms:
+    - term: Upstream
+      definition: >-
+        The segment of the oil and gas industry involving exploration, drilling,
+        and production of crude oil and natural gas from the reservoir to the
+        wellhead.
+      tags:
+        - Oil And Gas
+        - Exploration
+    - term: Permian Basin
+      definition: >-
+        A sedimentary basin in West Texas and Southeastern New Mexico that was
+        WPX Energy's primary operational area; one of the most productive oil
+        basins in the United States.
+      tags:
+        - Geography
+        - Oil And Gas
+    - term: Williston Basin
+      definition: >-
+        A sedimentary basin centered in North Dakota and extending into Montana
+        and Saskatchewan; WPX Energy's secondary operational focus known for
+        the Bakken shale formation.
+      tags:
+        - Geography
+        - Oil And Gas
+    - term: Horizontal Drilling
+      definition: >-
+        A drilling technique where the wellbore is turned horizontally after
+        reaching the target formation, enabling access to a wider area of the
+        reservoir from a single surface location.
+      tags:
+        - Drilling
+        - Technology
+    - term: Hydraulic Fracturing
+      definition: >-
+        A well stimulation technique involving high-pressure fluid injection to
+        create fractures in rock formations and release trapped oil and gas;
+        commonly used in the Permian and Williston basins.
+      tags:
+        - Drilling
+        - Production
+    - term: BOE
+      definition: >-
+        Barrel of Oil Equivalent; a unit of energy based on the approximate
+        energy released by burning one barrel of crude oil, used to compare
+        production volumes across different hydrocarbons.
+      tags:
+        - Measurement
+        - Production
+    - term: E&P
+      definition: >-
+        Exploration and Production; the upstream segment of the oil and gas
+        industry focused on finding hydrocarbon reserves and extracting them.
+      tags:
+        - Industry
+        - Upstream
+    - term: Devon Energy Merger
+      definition: >-
+        The 2021 all-stock merger of WPX Energy with Devon Energy Corporation
+        that created one of the largest independent oil and gas producers in
+        the United States, valued at approximately $12 billion.
+      tags:
+        - Corporate
+        - Merger
+    - term: Net Asset Value
+      definition: >-
+        The estimated value of a company's oil and gas reserves and other assets
+        less its liabilities, used as a key valuation metric in E&P analysis.
+      tags:
+        - Finance
+        - Valuation
+    - term: Proved Reserves
+      definition: >-
+        Quantities of oil and gas estimated with reasonable certainty to be
+        economically producible under existing economic conditions, operating
+        methods, and government regulations.
+      tags:
+        - Reserves
+        - Reporting
