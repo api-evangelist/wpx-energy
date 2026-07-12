@@ -25,6 +25,8 @@ url: >-
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/wpx-energy-domain-security.yml
   - type: Website
     url: https://www.devonenergy.com
   - type: LinkedIn
