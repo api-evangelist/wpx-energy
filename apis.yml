@@ -64,3 +64,6 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-parent: devon-energy
+x-relationship: merger
+x-acquired: 2021
